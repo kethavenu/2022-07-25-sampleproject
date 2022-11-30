@@ -1,0 +1,78 @@
+.Main {
+    color: red;
+    font-weight: bold;
+}
+
+.mainContainer {
+    text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(23, 191, 247), rgb(50, 50, 187), rgb(13, 13, 237), #fa35f6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 10%;
+}
+.sub-page-container {
+    background-color: white;
+    height: 70vh;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 20px;
+    
+}
+
+.Main-heading {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.create_account {
+    color: rgb(154, 136, 136);
+    font-size: 15px;
+    padding-left: 80px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: transparent;
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Input-account-number {
+    outline: none;
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 200%;
+    color: rgb(24, 22, 22);
+
+}
+
+.Lable-Account-number {
+    color: rgb(154, 136, 136);
+    font-weight: bold;
+    
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.login-button {
+    background-image: linear-gradient(to right,rgb(23, 191, 247), rgb(50, 50, 187), rgb(13, 13, 237), #fa35f6);
+    border-radius: 45px;
+    color: white;
+    width: 140px;
+    border-width: 0px;
+    height: 40px;
+    margin-right: 20px;
+}
