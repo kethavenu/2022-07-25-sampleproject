@@ -1,0 +1,88 @@
+.main-container {
+  background-image: url("https://henry.law/wp-content/uploads/2020/07/Pandemic-featured-image-AdobeStock_330945004-scaled-696x410-c-center.jpeg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.login-container {
+  height: 80vh;
+  width: 35vw;
+  background-color: rgb(250, 243, 243, 0.4);
+  background-size: cover;
+  border-radius: 35px;
+  border-width: 5px;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.Pro {
+  color: green;
+  font-family: "Roboto";
+}
+
+.Bank-name {
+  color: white;
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.login-password-label {
+  color: black;
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+.login-password-input {
+  width: 80%;
+  height: 3%;
+  outline: 0px;
+}
+
+.credentials-container {
+  height: 100%;
+  width: 80%;
+}
+
+.login-button {
+  border-width: 0px;
+  outline: none;
+  height: 40px;
+  width: 20%;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.forgot-button {
+  border-width: 0px;
+  outline: none;
+  height: 40px;
+  width: auto;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.create-account-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.create-account {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

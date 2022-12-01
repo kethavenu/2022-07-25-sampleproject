@@ -1,0 +1,57 @@
+.main-container {
+  background-image: url("https://wallpaperaccess.com/full/2312215.jpg");
+  background-size: cover;
+  padding: 40px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account-container {
+  background-color: rgb(250, 243, 243, 0.4);
+  background-size: cover;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account-heading {
+  font-family: "Roboto";
+  font-size: 35px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.first-name-label {
+  color: black;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.details-container {
+  display: flex;
+  padding: 35px;
+  flex-wrap: wrap;
+}
+
+.first-name-input {
+  min-width: 475px;
+  outline: none;
+}
+
+.create-button {
+  color: white;
+  outline: none;
+  width: 100px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: black;
+  margin: 30px;
+}
